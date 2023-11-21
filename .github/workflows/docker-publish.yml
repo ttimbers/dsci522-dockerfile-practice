@@ -42,5 +42,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: timbers/dockerfile-practice:${{ github.head_ref }}${{ github.sha }}
+          tags: timbers/dockerfile-practice:$(git rev-parse --short${{ github.head_ref }}${{ github.sha }})
           labels: ${{ steps.meta.outputs.labels }}
