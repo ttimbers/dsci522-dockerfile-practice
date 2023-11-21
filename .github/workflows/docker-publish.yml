@@ -42,5 +42,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: timbers/dockerfile-practice:${{ GITHUB_SHA }}
+          tags: timbers/dockerfile-practice:$test
           labels: ${{ steps.meta.outputs.labels }}
