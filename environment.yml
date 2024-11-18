@@ -1,0 +1,8 @@
+name: stat_301
+channels:
+ - conda-forge
+ - nodefaults
+dependencies:
+  - pandas=2.2.2
+  - pandera=0.20.4
+  - python=3.11
