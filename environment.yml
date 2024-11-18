@@ -1,7 +1,6 @@
-name: stat_301
+name: dsci522-dockerfile-practice
 channels:
  - conda-forge
- - nodefaults
 dependencies:
   - pandas=2.2.2
   - pandera=0.20.4
